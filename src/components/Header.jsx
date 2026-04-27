@@ -103,13 +103,13 @@ export default function Example() {
             </PopoverPanel>
           </Popover>
 
-          <a href="#" className="text-sm/6 font-semibold text-white">
+          <a href="/card" className="text-sm/6 font-semibold text-white hover:scale-105 transition-all duration-2s">
             Catálogos
           </a>
-          <a href="#" className="text-sm/6 font-semibold text-white">
+          <a href="/card" className="text-sm/6 font-semibold text-white hover:scale-105 transition-all duration-2s">
             Marketplace
           </a>
-          <a href="#" className="text-sm/6 font-semibold text-white">
+          <a href="/sobre" className="text-sm/6 font-semibold text-white hover:scale-105 transition-all duration-2s">
             Sobre
           </a>
         </PopoverGroup>
