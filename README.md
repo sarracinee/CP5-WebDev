@@ -1,16 +1,60 @@
-# React + Vite
+# GameStore
+Loja virtual de games desenvolvida com tecnologias modernas de front-end, focada em arquitetura de rotas, componentização e boas práticas de desenvolvimento colaborativo.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tecnologias Utilizadas
+- [Vite](https://vitejs.dev/)
+- [React](https://react.dev/)
+- [React Router Dom](https://reactrouter.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
-Currently, two official plugins are available:
+## Equipe
+| Nome | Função |
+|------|--------|
+| Felipe Menezes | Tech Líder |
+| Gabriel Ardito | Desenvolvedor |
+| João Sarracine | Desenvolvedor |
+| João Gozado | Desenvolvedor |
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Funcionalidades
+- Página inicial com boas-vindas e apresentação da loja
+- Catálogo de produtos (`/produtos`) com no mínimo 4 cards de games
+- Cards reutilizáveis contendo: imagem do jogo, título, descrição curta, preço e botão "Comprar"
+- Navegação estruturada via React Router Dom
+- Página 404 personalizada para rotas inexistentes
+- Componentes reutilizáveis: Header (logotipo + menu), Footer (copyright + redes sociais), Card
 
-## React Compiler
+## Estrutura de Rotas
+| Rota | Página | Descrição |
+|------|--------|-----------|
+| `/` | Home.jsx | Página inicial com boas-vindas |
+| `/produtos` | Produtos.jsx | Catálogo de games com cards |
+| `*` | Error.jsx | Página de erro 404 personalizada |
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Fluxo de Desenvolvimento
+O projeto segue rigorosamente as melhores práticas de versionamento semântico:
+- Commits semânticos obrigatórios (mínimo 10)
+- Proibido commits diretos na branch `main`
+- Toda nova funcionalidade deve ser desenvolvida em uma branch separada (ex: `feat/setup-rotas`, `feat/componente-header`)
+- Integração de código via Pull Requests (PR)
 
-## Expanding the ESLint configuration
+## Como Executar o Projeto
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/CP4-Front-End/CP5-WebDev.git
+   ```
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+3. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
+4. Acesse no navegador: `http://localhost:5173`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Licença
+Este projeto está licenciado sob a **MIT License**.
+
+Copyright (c) 2026 Felipe Menezes, Gabriel Ardito, João Sarracine, João Gozado
+
+
