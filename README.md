@@ -55,6 +55,6 @@ O projeto segue rigorosamente as melhores práticas de versionamento semântico:
 ## Licença
 Este projeto está licenciado sob a **MIT License**.
 
-Copyright (c) 2026 Felipe Menezes, Gabriel Ardito, João Sarracine, João Gozado
+Copyright (c) 2026 Felipe Menezes, Gabriel Ardito, João Sarracine, João Gonzales
 
 
