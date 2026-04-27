@@ -4,6 +4,7 @@ import Home from "./routes/Home"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 import Error from "./routes/Error"
+import Sobre from "./routes/Sobre"
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/card" element={<Card/>}/>
+        <Route path="/sobre" element={<Sobre/>}/>
         <Route path="/" element={<Home/>}/>
         <Route path="*" element={<Error/>}/>
       </Routes>
